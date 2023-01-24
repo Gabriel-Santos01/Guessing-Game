@@ -21,7 +21,6 @@ const tryButton = document.querySelector('#tryButton')
 const resetButton = document.querySelector('#resetButton')
 document.addEventListener('keydow', function (e) {
   if (e.key == 'Enter' && screen1.classList.contais('hide')) {
-    console.log(e)
     tryClick()
   }
 })
